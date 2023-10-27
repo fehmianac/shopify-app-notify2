@@ -2,7 +2,7 @@
 
 name = "Notify2"
 client_id = "69b447eebccbb127a4e1122022be0e22"
-application_url = "https://concord-serial-able-democrats.trycloudflare.com"
+application_url = "https://body-ap-vector-chick.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_pixels,read_customer_events,read_customers,read_orders"
 
 [auth]
 redirect_urls = [
-  "https://concord-serial-able-democrats.trycloudflare.com/auth/callback",
-  "https://concord-serial-able-democrats.trycloudflare.com/auth/shopify/callback",
-  "https://concord-serial-able-democrats.trycloudflare.com/api/auth/callback",
-  "https://concord-serial-able-democrats.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://body-ap-vector-chick.trycloudflare.com/auth/callback",
+  "https://body-ap-vector-chick.trycloudflare.com/auth/shopify/callback",
+  "https://body-ap-vector-chick.trycloudflare.com/api/auth/callback",
+  "https://body-ap-vector-chick.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]
