@@ -1,0 +1,33 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "Notify2"
+client_id = "69b447eebccbb127a4e1122022be0e22"
+application_url = "https://concord-serial-able-democrats.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_pixels,read_customer_events,read_customers,read_orders"
+
+[auth]
+redirect_urls = [
+  "https://concord-serial-able-democrats.trycloudflare.com/auth/callback",
+  "https://concord-serial-able-democrats.trycloudflare.com/auth/shopify/callback",
+  "https://concord-serial-able-democrats.trycloudflare.com/api/auth/callback",
+  "https://concord-serial-able-democrats.trycloudflare.com/.shopify/graphiql/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+  [webhooks.privacy_compliance]
+  customer_deletion_url = "https://webhook.notifyto.com/shopify/webhooks"
+  customer_data_request_url = "https://webhook.notifyto.com/shopify/webhooks"
+  shop_deletion_url = "https://webhook.notifyto.com/shopify/webhooks"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-6dbe37d0.myshopify.com"
